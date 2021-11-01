@@ -1,0 +1,40 @@
+body{
+    background-color:#2a0952;
+}
+
+/*Start Quiz Box Styling*/
+
+.quiz-box{
+    align-content: center;
+    background-color: #fff;
+    border: black solid 1px;
+    border-radius: 3%;
+    margin:400px;
+    padding: 50px;
+}
+
+/*Start Quiz Screen Styling*/
+.start-button button{
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 150px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: #2a0952;
+    cursor: pointer;
+}
+
+:hover.start-button button{
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: #7449aa;
+    cursor: pointer;
+}
