@@ -1,32 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Coding-Quiz</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Coding-Quiz</title>
 </head>
+
 <body>
 
-    <!--Quiz Box-->
-  <section class="quiz-box">
+  <a href="#">View high scores</a>
 
+  <!--Quiz Box One-->
+  <div id="quiz-box-one" class="quiz-box-one">
     <!--Start Quiz Screen-->
     <h1>Welcome to my coding quiz</h1>
     <h3>Rules</h3>
     <ol>
-        <li>Answer all the questions before the time hits zero</li>
-        <li>Missing questions deducts points</li>
-        <li>Going over time limit deducts points for every ten seconds over</li>
-        <li>Have fun!!!</li>
+      <li>Answer all the questions before the time hits zero</li>
+      <li>Missing questions deducts points</li>
+      <li>Going over time limit deducts points for every ten seconds over</li>
+      <li>Have fun!!!</li>
     </ol>
-
     <h3>Good luck and may the odds be ever in your favor</h3>
+    <div id="start-button"><button>Start Quiz</button></div>
+  </div>
 
-    <div class="start-button"><button>Start Quiz</button></div>
-  </section>
+  <!--Quiz Box Two-->
+  <div id="quiz-box-two">
 
-    
-    <script src="assets/app.js"></script>
+    <!--Quiz Question Screen-->
+
+    <div id="quiz">
+      <div id="timer"></div>
+      <div id="questions">
+      </div>
+      <ol id="choices"></ol>
+    </div>
+
+  </div>
+
+  <!--Results Button-->
+
+  <!--Quiz Box Three-->
+  <div id="quiz-box-three">
+
+
+
+    <!--Results page-->
+    <div id="results"></div>
+
+  </div>
+
+
 </body>
+<script src="../Coding-Quiz/assets/app.js"></script>
+
 </html>

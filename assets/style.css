@@ -2,9 +2,9 @@ body{
     background-color:#2a0952;
 }
 
-/*Start Quiz Box Styling*/
+/*Start Quiz Box One Styling*/
 
-.quiz-box{
+#quiz-box-one{
     align-content: center;
     background-color: #fff;
     border: black solid 1px;
@@ -13,8 +13,19 @@ body{
     padding: 50px;
 }
 
+#quiz-box-one a{
+    color: rgb(119, 9, 73);
+
+}
+
+#quiz-box-one header p{
+    font-size: 5px;
+    margin-top: none;
+    padding-top: none;
+}
+
 /*Start Quiz Screen Styling*/
-.start-button button{
+#start-button button{
     font-size: 10px;
     font-weight: 500;
     color: #fff;
@@ -27,7 +38,7 @@ body{
     cursor: pointer;
 }
 
-:hover.start-button button{
+:hover#start-button button{
     font-size: 10px;
     font-weight: 500;
     color: #fff;
@@ -38,3 +49,51 @@ body{
     background: #7449aa;
     cursor: pointer;
 }
+
+/*Quiz Box Two Styling*/
+
+#quiz-box-two{
+    align-content: center;
+    background-color: #fff;
+    border: black solid 1px;
+    border-radius: 3%;
+    margin:400px;
+    padding: 50px;
+    display: none;
+}
+
+
+
+#quiz-box-two ol button{
+    margin-right: 10px;
+   
+    
+    
+
+}
+
+#quiz-box-two ol li{
+    background: #2a0952;
+    margin:15px;
+    text-decoration: none;
+    list-style:none;
+    
+    
+}
+
+/*Quiz Box Three Styling*/
+
+#quiz-box-three{
+    align-content: center;
+    background-color: #fff;
+    border: black solid 1px;
+    border-radius: 3%;
+    margin:400px;
+    padding: 50px;
+    display: none;
+}
+
+
+
+
+
