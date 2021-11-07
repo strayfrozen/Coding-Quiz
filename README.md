@@ -8,4 +8,4 @@ learned in the first month of school
 <img src="assets\Images\Screenshot (25).png">
 
 ## Link
-<a href="https://strayfrozen.github.io/Coding-Quiz/">
+<a href="https://strayfrozen.github.io/Coding-Quiz/">Link</a>
