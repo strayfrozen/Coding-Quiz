@@ -24,6 +24,22 @@ var myQuestions = [
         choices: ["Couple Style Sheet", "Cipher Style Sheet", "Cascading Style Sheet", "CoLinx Super Star"],
         answer: "Cascading Style Sheet"
     },
+    {
+        question: "What does API stand for?",
+        choices: [" Apple Programming Interface", "Application Programming Interface", " Absoloute Programming Interface", " Apropriate Programming Interface"],
+        answer: "Application Programming Interface"
+    },
+    {
+        question: "What does var stand for in Javascript?",
+        choices: ["Variable", "Vamp Apex Rotation", "Valuable Applicatin Revenue", "Variant"],
+        answer: "Variable"
+    },
+    {
+        question: "Is Programming Easy?",
+        choices: ["Yea", "Yup", "Kinda", "No"],
+        answer: "No"
+    }
+    
 ];
 
 //Create a function to take you to quiz screen
