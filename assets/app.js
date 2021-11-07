@@ -6,7 +6,7 @@ var quizTimer = document.getElementById("timer");
 var questionsDiv = document.getElementById('questions')
 var choiceList = document.getElementById('choices')
 
-var timeLeft = 76;
+var timeLeft = 60;
 var timerInterval;
 var questionIndex = 0
 var score = 0
@@ -54,11 +54,31 @@ startQuiz.addEventListener("click", function () {
     console.log(quizBoxTwo);
 });
 
-function Timer() {
-}
+
+
+       function Timer() {setInterval(function(){
+           if(timeLeft > 0){
+               timeLeft--
+               quizTimer.innerText = timeLeft;
+           }else if(timeLeft === 0) {
+               quizTimer.innerText = "";
+               clearInterval(timeInterval)
+               return
+           }
+           },1000);
+        } 
+    
+    
+
+
 function renderQuestion() {
     if (questionIndex === myQuestions.length ) {
         endQuiz()
+    }
+       else if(timeLeft === 0){
+           alert("Time's up")
+        endQuiz();
+        
     }
     // if timeLeft equals = 0 then call the endquiz function
     var currentQuestion = document.createElement('h1')
@@ -73,7 +93,8 @@ function renderQuestion() {
 
         listEl.addEventListener('click', answerCheck)
     }
-}
+} 
+
 
 function answerCheck(e) {
     if (e.target.id === myQuestions[questionIndex].answer) {
