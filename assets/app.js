@@ -127,9 +127,3 @@ function endQuiz() {
 
     window.location.href = 'highscore.html'
 }
-
-
-
-
-
-//Event Listneners
